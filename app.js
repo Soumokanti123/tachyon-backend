@@ -14,7 +14,7 @@ mongoose
   .connect(
     "mongodb+srv://admin:admin@cluster0.fug6pkv.mongodb.net/BlogApp?retryWrites=true&w=majority"
   )
-  .then(() => app.listen(process.env.PORT || 8000))
+  .then(() => app.listen(process.env.PORT || 5000))
   .then(() => console.log("Server is running on port 5000"))
   .catch((e) => console.log(e));
 

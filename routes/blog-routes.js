@@ -6,7 +6,7 @@ import {
   getById,
   deleteBlog,
   getByUserId,
-} from "../controllers/blog-controller";
+} from "../controllers/blog-controller.js";
 const blogRouter = express.Router();
 
 
